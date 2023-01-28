@@ -1,6 +1,6 @@
 %-------------------------
 % Resume in Latex
-% Author : conscioustahoe
+% Author : 
 % License : MIT
 %------------------------
 
@@ -113,7 +113,7 @@
     \small +91-831-963-9312 $|$ \href{mailto:ashutoshnarang80@gmail.com}{\underline{Email Me}} $|$ 
     \href{https://www.linkedin.com/in/ashutosh-narang/}{\underline{Connect With Me On LinkedIn}} 
     $|$ \href{https://ashutoshnarang.substack.com}{\underline{Read My Newsletter}}
-    % $|$ \href{https://twitter.com/velvetentropy}{\underline{Follow Me On Twitter}}
+    $|$ \href{https://twitter.com/conscioustahoe}{\underline{Follow Me On Twitter}}
     $|$ \href{https://github.com/conscioustahoe}{\underline{Github}}
     
 \end{center}
@@ -121,82 +121,85 @@
 %-----------SUMMARY-----------
 \section{Summary}
  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{ I am a Senior Software Engineer with 5+ years of experience in designing and implementing backend systems and ML pipelines. I have a proven track record of delivering successful projects using a combination of strong technical expertise, understanding of consumer needs and mentoring abilities.}
+    }
+ \end{itemize}
+    
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     {\textbf{Senior Software Engineer with 5+ years} of experience designing and implementing backend systems. Proven track record of delivering successful projects and improving performance. Strong technical expertise in designing scalable and reliable distributed architectures, understanding consumer needs, and mentoring abilities.}
+     {Java14, Golang, Python3, Spring, PyTorch, Scikit-Learn, Machine Learning Algorithms, AWS, GCP, Kubernetes, Kafka, Redis, PostgreSQL, MongoDB, Google Collab, iOS Development, Swift, JavaScript}
     }}
  \end{itemize}
-
+ 
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Senior Staff Software Engineer}{August 2021 – Present}
+      {Senior Software Engineer}{August 2021 – Present}
       {Palo Alto Networks Inc.}{Remote}
       \resumeItemListStart
-      \resumeItem{Led a team of 3 members to build a highly-scalable 
-      framework | DAG | scanning events, resulting in a product generating \textbf{\$10+ million in revenue}.}
-      \resumeItem{Redesigned a legacy batch service using SQS into a kubernetes based streaming service using Kafka and \textbf{improved avg. throughput/sec by 3000 \%}.}
-      \resumeItem{Process | Documentation | Transactional System}
-      \resumeItem{MLOps}
+      \resumeItem{Led a team of 3 to build a highly-scalable platform based on Kafka Connect for data processing from multiple sources. Resulting platform is the backbone of products generating \$10+ million in revenue in total.}
+      \resumeItem{Redesigned legacy batch service using SQS into kubernetes-based streaming service using Kafka, resulting in a 3000\% improvement in avg. throughput/sec.}
+      \resumeItem{Wrote nearly 200 pages of internal documentation, topics ranging from engineering best practices, processes, how-tos for resolving production issues and code knowledge.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Founding Engineer}{January 2021 – August 2021}
       {Gamma AI (Acquired By Palo Alto Networks)}{Remote}
       \resumeItemListStart
-        \resumeItem{Implemented a highly-efficient event streaming system that scanned 100+ million events daily to identify sensitive data, such as secrets, financial data, and healthcare information, with a latency of 1 second. Nameko | Kubernetes}
-        \resumeItem{Developed a model for identifying secrets in source code repositories, leading to the inclusion of Version Control System in our portfolio of apps and resulting in \textbf{successful partnerships with startups such as Scale.AI and Chime}.}
-        \resumeItem{\textbf{Reduced average query latency from 5 sec to 100 ms} for slow queries doing multiple joins on tables with nearly billion rows. Indexing | Caching}
+      \resumeItem{Developed significant portions of tech including a high-performance event streaming system using Kafka and Kubernetes and cloud infra utilizing GCP, Terraform, and Helm.}
+      \resumeItem{Developed a model for identifying secrets in source code repositories, leading to the inclusion of Version Control System in our portfolio of apps and resulting in successful deals with startups such as Scale.AI and Chime.}
+      \resumeItem{Reduced latency of slow APIs from an avg. of 5 sec to 100 ms by explain-analyze db queries and applying correct indexes, vacuuming, tuning config params for effective caching and creating materialized views.}
       \resumeItemListEnd
     
     \resumeSubheading
       {Software Development Engineer}{March 2019 – Jan 2021}
       {Joveo}{Hyderabad, Telangana}
       \resumeItemListStart
-        \resumeItem{Transformed the ad tracking system using a variety of technologies including API-Gateway, DynamoDB, Lambda, S3, Redshift, and SQS, processing nearly 150+ million events per day 100+ jobs boards.}
-        \resumeItem{Redesigned a high-frequency transaction service that buys ads and fetches performance metrics from Google and Facebook Ads, \textbf{generating 15\% of the company's revenue}.}
-        \resumeItem{Implemented a novel system that publishes ads on Craigslist, w/o any available API and bypass bot detection. The service generated \textbf{\$95K in monthly revenue and incurred a cost of only \$200}.}
+      \resumeItem{Implemented a novel system that publishes ads on Craigslist, w/o any available API and bypass bot detection. The service generated \$95K in monthly revenue and incurred a cost of only \$2K.}
+      \resumeItem{Transformed the ad tracking system using a variety of technologies including API-Gateway, DynamoDB, Lambda, S3, Redshift, and SQS, processing nearly 150+ million events per day from 100+ jobs boards.}
+      \resumeItem{Redesigned a high-frequency transaction service that buys ads and fetches performance metrics from Google and Facebook Ads, generating 15\% of the company's revenue.}
       \resumeItemListEnd
     
     \resumeSubheading
       {Software Engineer}{April 2018 – March 2019}
       {NowFloats}{Hyderabad, Telangana}
       \resumeItemListStart
-        \resumeItem{Engineered a caching layer based on Redis, \textbf{improving response time of key APIs by 53\%} .}
-        \resumeItem{Devised a reliable and secure payment system that provides wallet for faster payments and quick reconciliation with a \textbf{mean transaction time of 550 ms}.}
+      \resumeItem{Implemented a lot of business heavy APIs, engineered a caching layer based on Redis, improving API response time by 53\% and developed a secure wallet system for our marketplace to make purchases and reconciliation easier.}
       \resumeItemListEnd
       
      
     \resumeSubHeadingListEnd
-    
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
+
+%-----------PROJECTS AND WRITING-----------
+\section{Projects And Writing}
  \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     {Java14, Python3, Golang, Scala, Spring Boot, AWS, GCP, Kafka, Redis, Kubernetes, PostgreSQL, MongoDB, Linux, Git, REST APIs, SDLC}
+    \small
+    {\item{
+     \textbf{{\href{https://www.notetakers.xyz/}{NoteTakers.xyz}}}{: Take margin notes while reading articles behind a paywall for free.}
+    }}
+    {\item{
+     \textbf{Woof}{: iOS app to upload pics of your dogs and get AI generated images back like they're drawn by famous painters.}
+    }}
+    {\item{
+     \textbf{{\href{https://ashutoshnarang.substack.com}{Ashutosh's Newsletter}}}{: I write about ai and engineering and have more than 1K subscribers.}
     }}
  \end{itemize}
 
-%-----------WRITING-----------
-\section{Writing}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{{\href{https://ashutoshnarang.substack.com}{Ashutosh's Newsletter}}}{: I write about ai, science and engineering and have more than 1K subscribers.}
-    }}
- \end{itemize}
 
+% -----------PROJECTS-----------
+% \section{Projects}
 
------------PROJECTS-----------
-\section{Projects}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%           {\textbf{Nameko} \emph{Open-Source Contributor}}{}
+%           \resumeItemListStart
+%             \resumeItem{Nameko is a framework for building lightweight and highly scalable microservices in Python.}
+%           \resumeItemListEnd
 
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Nameko} \emph{Open-Source Contributor}}{}
-          \resumeItemListStart
-            \resumeItem{Nameko is a framework for building lightweight and highly scalable microservices in Python.}
-          \resumeItemListEnd
-
-    \resumeSubHeadingListEnd
+%     \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -204,8 +207,6 @@
     \resumeSubheading
       {KIIT University}{2014 - 2018}
       {Bachelor in Computer Science and Engineering}{India}
-          \resumeItemListStart
-            \resumeItem{CGPA: 7.0}
         \resumeItemListEnd
 
   \resumeSubHeadingListEnd
